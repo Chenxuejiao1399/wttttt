@@ -1,7 +1,6 @@
 <template>
   <div>
-    <el-radio v-model="radio" label="1">备选项</el-radio>
-    <el-radio v-model="radio" label="2">备选项</el-radio>
+    <a href="www.baidu.com">百度</a>
   </div>
 </template>
 
@@ -17,4 +16,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+a:after{content:" (" attr(href) ") ";}
 </style>
